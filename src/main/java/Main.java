@@ -51,6 +51,6 @@ public class Main {
         //Посчитаем 90-й процентиль времени полета между городами  Владивосток и Тель-Авив
         Collections.sort(flightTimeList);
         int index = (int) Math.ceil(0.9 * flightTimeList.size());
-        System.out.println("Посчитаем 90-й процентиль времени полета между городами  Владивосток и Тель-Авив: " + flightTimeList.get(index - 1));
+        System.out.println("90-й процентиль времени полета между городами  Владивосток и Тель-Авив: " + flightTimeList.get(index - 1));
     }
 }
